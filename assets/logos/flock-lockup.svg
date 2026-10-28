@@ -111,105 +111,8 @@
     </g>
   </g>
   <g
-     id="turquoise"
-     transform="translate(246 280) scale(.92)">
-    <path
-       id="turquoise-far-wing"
-       d="M160 122 C185 105 207 119 233 100 Q230 119 207 128 Q215 134 197 138 Q185 146 163 141 Z"
-       fill="#087E8B" />
-    <path
-       id="turquoise-tail"
-       d="M95 143 C75 154 54 162 31 161 L51 148 L39 144 C55 138 70 132 86 127 Z"
-       fill="#087E8B" />
-    <path
-       id="turquoise-body"
-       d="M63 138 C84 130 100 120 98 108 C100 104 95 99 96 98.4 C95.6 81.6 101.6 68.4 112.8 58.4 C124 48.4 142.4 45.2 157.6 48.8 C174.4 50.4 187.2 63.2 189.6 78.8 C191.6 89.6 187.2 99.6 186.4 106.8 C181 142 146 166 112 168 C90 170 72 157 55 145 Z"
-       fill="#FFF9F0"
-       stroke="#E5DED3"
-       stroke-width="0.7"
-       stroke-linejoin="round" />
-    <path
-       id="turquoise-belly-shadow"
-       d="M70 150 C108 172 153 146 180 120 C168 151 139 166 112 168 C94 169 78 158 70 150 Z"
-       fill="#ECE7DF" />
-    <path
-       id="turquoise-blue-back"
-       d="M157.6 48.8 C133.6 44.8 114.8 57.2 104.8 76.4 C98.8 88.4 102 100.4 102 112 C101 119 99 121 96 123 L90 125 C94 116 99 119 97.6 108 C95.6 95 96 85 100 74 C110 54 133 43 146.4 46 Z"
-       fill="#34BBC1" />
-    <path
-       id="turquoise-near-wing-base"
-       d="M124 124 C104 116 95 74 83 59 C71 38 44 36 17 20 Q9 13 18 29 C24 44 36 53 49 59 L34 60 Q24 66 24 73 C33 87 42 95 53 98 L43 100 Q36 107 47 115 C59 129 78 143 95 140 C109 138 119 132 124 124 Z"
-       fill="#087E8B" />
-    <path
-       id="turquoise-near-wing"
-       d="M124 124 C104 116 95 74 83 59 C73 45 43 38 28 26 Q22 22 27 33 C38 53 49 65 62 73 Q42 62 50 77 C59 90 72 100 84 104 Q58 92 67 107 C78 120 96 129 111 127 Z"
-       fill="#34BBC1" />
-    <g
-       id="turquoise-mascot-face"
-       transform="translate(16 0) scale(.4)">
-      <path
-         id="turquoise-crest-upper"
-         d="M354 122 C335 100 322 81 288 72 C270 66 249 67 237 72 Q230 75 237 80 C267 98 317 103 354 122 Z"
-         fill="#34BBC1" />
-      <path
-         id="turquoise-crest-lower"
-         d="M354 122 C318 101 286 95 253 105 C231 111 213 124 203 134 Q197 143 210 139 C258 124 306 116 354 122 Z"
-         fill="#087E8B" />
-      <ellipse
-         id="turquoise-near-eye-white"
-         cx="297"
-         cy="216"
-         rx="31"
-         ry="39"
-         transform="rotate(-12 297 216)"
-         fill="#FFFFFF"
-         stroke="#DFE4E5"
-         stroke-width="2.5" />
-      <ellipse
-         id="turquoise-near-eye"
-         cx="309"
-         cy="220"
-         rx="20"
-         ry="27"
-         transform="rotate(-12 309 220)"
-         fill="#0B2F55" />
-      <ellipse
-         id="turquoise-far-eye"
-         cx="403"
-         cy="183"
-         rx="10"
-         ry="21"
-         transform="rotate(-18 403 183)"
-         fill="#0B2F55" />
-      <circle
-         id="turquoise-near-highlight"
-         cx="318"
-         cy="205"
-         r="4.4"
-         fill="#FFFFFF" />
-      <circle
-         id="turquoise-far-highlight"
-         cx="402"
-         cy="171"
-         r="2.5"
-         fill="#FFFFFF" />
-      <path
-         id="turquoise-eyebrow"
-         d="M268 191 C271 177 285 170 298 174 Q305 176 310 181 C292 174 279 181 268 191 Z"
-         fill="#0B2F55" />
-      <path
-         id="turquoise-beak"
-         d="M356 229 C373 225 370 203 384 197 C405 189 447 195 461 205 Q469 211 470 216 C447 213 431 220 416 229 C396 241 383 253 369 246 Q358 240 354 235 Q352 232 356 229 Z"
-         fill="#FF9C21" />
-      <path
-         id="turquoise-beak-smile"
-         d="M355 233 C381 246 416 220 446 216 Q460 214 470 216 C444 219 427 230 408 239 C385 254 371 253 355 233 Z"
-         fill="#E6861D" />
-    </g>
-  </g>
-  <g
      id="azure"
-     transform="translate(122 12) scale(1.48)">
+     transform="translate(246 280) scale(.92)">
     <path
        id="azure-far-wing"
        d="M160 122 C185 105 207 119 233 100 Q230 119 207 128 Q215 134 197 138 Q185 146 163 141 Z"
@@ -305,11 +208,108 @@
     </g>
   </g>
   <g
+     id="green"
+     transform="translate(122 12) scale(1.48)">
+    <path
+       id="green-far-wing"
+       d="M160 122 C185 105 207 119 233 100 Q230 119 207 128 Q215 134 197 138 Q185 146 163 141 Z"
+       fill="#13734E" />
+    <path
+       id="green-tail"
+       d="M95 143 C75 154 54 162 31 161 L51 148 L39 144 C55 138 70 132 86 127 Z"
+       fill="#13734E" />
+    <path
+       id="green-body"
+       d="M63 138 C84 130 100 120 98 108 C100 104 95 99 96 98.4 C95.6 81.6 101.6 68.4 112.8 58.4 C124 48.4 142.4 45.2 157.6 48.8 C174.4 50.4 187.2 63.2 189.6 78.8 C191.6 89.6 187.2 99.6 186.4 106.8 C181 142 146 166 112 168 C90 170 72 157 55 145 Z"
+       fill="#FFF9F0"
+       stroke="#E5DED3"
+       stroke-width="0.7"
+       stroke-linejoin="round" />
+    <path
+       id="green-belly-shadow"
+       d="M70 150 C108 172 153 146 180 120 C168 151 139 166 112 168 C94 169 78 158 70 150 Z"
+       fill="#ECE7DF" />
+    <path
+       id="green-blue-back"
+       d="M157.6 48.8 C133.6 44.8 114.8 57.2 104.8 76.4 C98.8 88.4 102 100.4 102 112 C101 119 99 121 96 123 L90 125 C94 116 99 119 97.6 108 C95.6 95 96 85 100 74 C110 54 133 43 146.4 46 Z"
+       fill="#35B77D" />
+    <path
+       id="green-near-wing-base"
+       d="M124 124 C104 116 95 74 83 59 C71 38 44 36 17 20 Q9 13 18 29 C24 44 36 53 49 59 L34 60 Q24 66 24 73 C33 87 42 95 53 98 L43 100 Q36 107 47 115 C59 129 78 143 95 140 C109 138 119 132 124 124 Z"
+       fill="#13734E" />
+    <path
+       id="green-near-wing"
+       d="M124 124 C104 116 95 74 83 59 C73 45 43 38 28 26 Q22 22 27 33 C38 53 49 65 62 73 Q42 62 50 77 C59 90 72 100 84 104 Q58 92 67 107 C78 120 96 129 111 127 Z"
+       fill="#35B77D" />
+    <g
+       id="green-mascot-face"
+       transform="translate(16 0) scale(.4)">
+      <path
+         id="green-crest-upper"
+         d="M354 122 C335 100 322 81 288 72 C270 66 249 67 237 72 Q230 75 237 80 C267 98 317 103 354 122 Z"
+         fill="#35B77D" />
+      <path
+         id="green-crest-lower"
+         d="M354 122 C318 101 286 95 253 105 C231 111 213 124 203 134 Q197 143 210 139 C258 124 306 116 354 122 Z"
+         fill="#13734E" />
+      <ellipse
+         id="green-near-eye-white"
+         cx="297"
+         cy="216"
+         rx="31"
+         ry="39"
+         transform="rotate(-12 297 216)"
+         fill="#FFFFFF"
+         stroke="#DFE4E5"
+         stroke-width="2.5" />
+      <ellipse
+         id="green-near-eye"
+         cx="309"
+         cy="220"
+         rx="20"
+         ry="27"
+         transform="rotate(-12 309 220)"
+         fill="#0B2F55" />
+      <ellipse
+         id="green-far-eye"
+         cx="403"
+         cy="183"
+         rx="10"
+         ry="21"
+         transform="rotate(-18 403 183)"
+         fill="#0B2F55" />
+      <circle
+         id="green-near-highlight"
+         cx="318"
+         cy="205"
+         r="4.4"
+         fill="#FFFFFF" />
+      <circle
+         id="green-far-highlight"
+         cx="402"
+         cy="171"
+         r="2.5"
+         fill="#FFFFFF" />
+      <path
+         id="green-eyebrow"
+         d="M268 191 C271 177 285 170 298 174 Q305 176 310 181 C292 174 279 181 268 191 Z"
+         fill="#0B2F55" />
+      <path
+         id="green-beak"
+         d="M356 229 C373 225 370 203 384 197 C405 189 447 195 461 205 Q469 211 470 216 C447 213 431 220 416 229 C396 241 383 253 369 246 Q358 240 354 235 Q352 232 356 229 Z"
+         fill="#FF9C21" />
+      <path
+         id="green-beak-smile"
+         d="M355 233 C381 246 416 220 446 216 Q460 214 470 216 C444 219 427 230 408 239 C385 254 371 253 355 233 Z"
+         fill="#E6861D" />
+    </g>
+  </g>
+  <g
      id="wordmark">
     <path
        d="m 555.876,302 h 24.012 v -41.76 h 42.108 v -20.88 h -42.108 v -34.8 h 51.504 v -20.88 h -75.516 z m 163.73203,0 v -21.228 h -43.326 V 183.68 h -24.012 V 302 Z m 61.59394,-18.792 c -19.488,0 -24.36,-12.354 -24.36,-39.672 0,-27.318 4.872,-41.064 24.36,-41.064 19.488,0 24.36,13.746 24.36,41.064 0,27.318 -4.872,39.672 -24.36,39.672 z m 0,20.88 c 37.236,0 49.068,-20.532 49.068,-60.552 0,-40.02 -11.832,-61.944 -49.068,-61.944 -37.236,0 -49.068,21.924 -49.068,61.944 0,40.02 11.832,60.552 49.068,60.552 z m 148.07206,-23.664 c -6.96,1.044 -21.75,2.436 -29.754,2.436 -20.532,0 -24.708,-8.178 -24.708,-40.02 0,-33.582 5.742,-40.02 24.012,-40.02 7.83,0 22.446,1.392 30.45,2.61 l 0.696,-19.14 c -7.308,-1.74 -22.272,-4.698 -34.626,-4.698 -35.148,0 -45.24,16.356 -45.24,61.248 0,41.412 8.7,61.248 45.24,61.248 10.788,0 26.448,-2.262 34.452,-4.002 z M 1013.1399,302 h 27.666 l -26.448,-58.986 25.752,-59.334 h -27.318 l -19.488,50.286 -16.008,1.74 V 183.68 h -24.012 V 302 h 24.012 v -45.414 l 16.008,-1.74 z"
        id="flock-lettering"
-       style="font-weight:bold;font-size:174px;font-family:Titillium;letter-spacing:4;fill:#0b2f55"
+       style="font-weight:bold;font-size:174px;font-family:Titillium;letter-spacing:4;fill:#35B77D"
        aria-label="FLOCK" />
   </g>
 </svg>
