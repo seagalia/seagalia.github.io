@@ -34,6 +34,11 @@
   --turquoise: #34bbc1;
 }
 
+/* brand palette shades, because the logo colors are too pale for text on cream */
+.flock { --primary: light-dark(#13734e, #8cdeb5); }
+.meridian { --primary: light-dark(#493080, #bca0f0); }
+.vigie { --primary: light-dark(#087e8b, #80dade); }
+
 * { box-sizing: border-box; }
 
 body {
@@ -68,6 +73,8 @@ header img { height: clamp(2rem, 5vh, 2.5rem); display: block; }
 nav { display: flex; gap: 1.5rem; font-weight: 600; }
 nav a { text-decoration: none; color: var(--on-surface); }
 nav a:hover { color: var(--primary); }
+nav a:is(.flock, .meridian, .vigie) { color: var(--primary); }
+nav a:is(.flock, .meridian, .vigie):hover { text-decoration: underline; }
 
 main {
   flex: 1;
@@ -75,7 +82,7 @@ main {
   flex-direction: column;
   justify-content: center;
   /* keeps the towers of the coast clear of the last card when the window is short */
-  padding-bottom: clamp(1rem, 4vh, 2.5rem);
+  padding-bottom: clamp(2rem, 8vh, 5rem);
   gap: clamp(1rem, 4vh, 2.5rem);
 }
 
@@ -176,6 +183,8 @@ h1 em { font-style: normal; color: var(--primary); }
   white-space: nowrap;
 }
 .button:hover { background: var(--primary); color: var(--surface); }
+/* a product without a public repository yet keeps the button's shape so the cards still line up */
+.button.soon, .button.soon:hover { border-style: dashed; color: var(--primary); background: none; }
 
 /* flat old-town and lighthouse silhouette standing on the sea, footer band continues the deep water */
 .coast { position: relative; height: clamp(6rem, 24vh, 15rem); margin-bottom: -1px; }

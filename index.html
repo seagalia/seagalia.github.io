@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Seagalia</title>
-  <meta name="description" content="Seagalia builds open-source network infrastructure, such as Flock, a flexible load balancer orchestrator, and Vigie, an endpoint discovery server.">
+  <meta name="description" content="Seagalia builds open-source network infrastructure, such as Flock, a flexible load balancer orchestrator, Meridian, a global server load balancer, and Vigie, an endpoint discovery server.">
   <link rel="icon" href="assets/logos/seagalia-icon.svg" type="image/svg+xml">
   <link rel="preload" href="assets/fonts/titillium-web-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/site.css">
@@ -18,8 +18,9 @@
       </picture>
     </a>
     <nav>
-      <a href="#flock">Flock</a>
-      <a href="#vigie">Vigie</a>
+      <a class="flock" href="https://flock.seagalia.io" target="_blank" rel="noopener">Flock</a>
+      <a class="meridian" href="https://meridian.seagalia.io" target="_blank" rel="noopener">Meridian</a>
+      <a class="vigie" href="https://vigie.seagalia.io" target="_blank" rel="noopener">Vigie</a>
       <a href="https://github.com/seagalia" target="_blank" rel="noopener">GitHub</a>
     </nav>
   </header>
@@ -52,7 +53,7 @@
     </section>
 
     <div class="products">
-    <section id="flock" class="card">
+    <section id="flock" class="card flock">
       <picture>
         <source srcset="assets/logos/flock-lockup-dark.svg" media="(prefers-color-scheme: dark)">
         <img src="assets/logos/flock-lockup.svg" alt="Flock">
@@ -64,7 +65,19 @@
       <a class="button" href="https://github.com/seagalia/flock" target="_blank" rel="noopener">View on GitHub</a>
     </section>
 
-    <section id="vigie" class="card">
+    <section id="meridian" class="card meridian">
+      <picture>
+        <source srcset="assets/logos/meridian-lockup-dark.svg" media="(prefers-color-scheme: dark)">
+        <img src="assets/logos/meridian-lockup.svg" alt="Meridian">
+      </picture>
+      <div>
+        <h2>Global server load balancer</h2>
+        <p>Flock balances traffic inside a site, Meridian balances it between sites.</p>
+      </div>
+      <span class="button soon">Coming soon</span>
+    </section>
+
+    <section id="vigie" class="card vigie">
       <picture>
         <source srcset="assets/logos/vigie-lockup-dark.svg" media="(prefers-color-scheme: dark)">
         <img src="assets/logos/vigie-lockup.svg" alt="Vigie">
