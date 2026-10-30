@@ -2,6 +2,9 @@
 
 The Seagalia website, served by GitHub Pages from `main`. It also hosts Flock.
 
+`.github/workflows/deploy.yml` publishes only `index.html`, `assets/` and `install.sh`. Add any new public file to its
+copy step.
+
 Plain HTML and CSS, no build step. Open `index.html` in a browser, or serve the folder:
 
 ```sh
