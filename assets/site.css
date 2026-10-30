@@ -38,9 +38,8 @@
 
 body {
   margin: 0;
-  /* everything fits in one screen: sizes below scale with the viewport height */
-  height: 100dvh;
-  overflow: hidden;
+  /* the footer sits at the bottom of a tall window, a short one scrolls to show it whole */
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   background: var(--bg);
@@ -72,11 +71,11 @@ nav a:hover { color: var(--primary); }
 
 main {
   flex: 1;
-  min-height: 0;
   display: flex;
   flex-direction: column;
-  /* safe: if a tiny screen overflows, keep the top visible instead of clipping it */
-  justify-content: safe center;
+  justify-content: center;
+  /* keeps the towers of the coast clear of the last card when the window is short */
+  padding-bottom: clamp(1rem, 4vh, 2.5rem);
   gap: clamp(1rem, 4vh, 2.5rem);
 }
 
@@ -142,19 +141,30 @@ h1 em { font-style: normal; color: var(--primary); }
 }
 @media (prefers-reduced-motion: reduce) { .nest .falling { animation: none; } }
 
-.card {
+/* the product cards sit closer to each other than to the hero, and share one grid so their logos and texts line up */
+.products {
   display: grid;
   grid-template-columns: auto 1fr auto;
+  gap: clamp(.5rem, 1.5vh, 1rem) 0;
+}
+
+.card {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: subgrid;
   align-items: center;
   gap: 1.5rem;
-  padding: clamp(.75rem, 2.5vh, 1.5rem) 1.5rem;
+  padding: clamp(.5rem, 1.8vh, 1.25rem) 1.5rem;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 1rem;
 }
-.card img { height: clamp(3rem, 8vh, 4.5rem); display: block; }
+.card img { height: clamp(2.5rem, 6.5vh, 4rem); display: block; }
 .card h2 { margin: 0; font-size: 1.25rem; }
 .card p { margin: .25rem 0 0; color: var(--muted); }
+.card .actions { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: flex-end; }
+/* the last column is as wide as the widest card's buttons, a single button keeps its own width */
+.card > .button, .card .actions { justify-self: end; }
 
 .button {
   padding: .5rem 1.25rem;
@@ -201,14 +211,15 @@ footer {
 @media (max-width: 40rem) {
   .hero { grid-template-columns: 1fr; text-align: center; gap: .5rem; }
   .hero .mascot-wrap { order: -1; justify-self: center; }
-  /* phones scroll: the one-screen lock only applies to larger screens */
-  body { height: auto; min-height: 100dvh; overflow: visible; }
   main { gap: 2rem; padding-block: 1.5rem; }
   .mascot { width: 10rem; }
   h1 { font-size: clamp(2rem, 9vw, 2.5rem); }
   .lead { margin: 0 auto; font-size: 1.0625rem; }
+  .products { grid-template-columns: 1fr; }
   .card { grid-template-columns: 1fr; text-align: center; justify-items: center; gap: 1rem; padding: 1.5rem 1rem; }
   .card img { height: 3.5rem; }
+  .card .actions { justify-content: center; }
+  .card > .button, .card .actions { justify-self: center; }
   .coast { height: 9rem; }
   nav { gap: 1rem; }
 }

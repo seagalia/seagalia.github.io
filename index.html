@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Seagalia</title>
-  <meta name="description" content="Seagalia builds open-source network infrastructure, starting with Flock, a flexible load balancer orchestrator.">
+  <meta name="description" content="Seagalia builds open-source network infrastructure, such as Flock, a flexible load balancer orchestrator, and Vigie, an endpoint discovery server.">
   <link rel="icon" href="assets/logos/seagalia-icon.svg" type="image/svg+xml">
   <link rel="preload" href="assets/fonts/titillium-web-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/site.css">
@@ -19,7 +19,8 @@
     </a>
     <nav>
       <a href="#flock">Flock</a>
-      <a href="https://github.com/seagalia">GitHub</a>
+      <a href="#vigie">Vigie</a>
+      <a href="https://github.com/seagalia" target="_blank" rel="noopener">GitHub</a>
     </nav>
   </header>
 
@@ -50,6 +51,7 @@
       </div>
     </section>
 
+    <div class="products">
     <section id="flock" class="card">
       <picture>
         <source srcset="assets/logos/flock-lockup-dark.svg" media="(prefers-color-scheme: dark)">
@@ -59,8 +61,24 @@
         <h2>Flexible load balancer orchestrator</h2>
         <p>Drive any load balancer from one place. Docs and releases are coming here.</p>
       </div>
-      <a class="button" href="https://github.com/seagalia/flock">View on GitHub</a>
+      <a class="button" href="https://github.com/seagalia/flock" target="_blank" rel="noopener">View on GitHub</a>
     </section>
+
+    <section id="vigie" class="card">
+      <picture>
+        <source srcset="assets/logos/vigie-lockup-dark.svg" media="(prefers-color-scheme: dark)">
+        <img src="assets/logos/vigie-lockup.svg" alt="Vigie">
+      </picture>
+      <div>
+        <h2>Endpoint discovery server</h2>
+        <p>Endpoints from DNS, Consul, Kubernetes or a file, served as JSON.</p>
+      </div>
+      <div class="actions">
+        <a class="button" href="https://vigie.seagalia.io" target="_blank" rel="noopener">Documentation</a>
+        <a class="button" href="https://github.com/seagalia/vigie" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </section>
+    </div>
   </main>
 
   <div class="site-footer">
